@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "travel_name": "Borobudur Sunrise Tour",
+        "slug": "borobudur-sunrise-tour",
+        "short_description": "Nikmati pengalaman sunrise dan wisata Candi Borobudur dalam satu perjalanan.",
+        "full_description": "<p>Nikmati perjalanan wisata ke <strong>Candi Borobudur</strong> dengan pengalaman sunrise yang menakjubkan.</p><p>Paket perjalanan tersedia dalam beberapa pilihan dan dapat disesuaikan dengan jumlah peserta.</p>",
+
+        "cities_id": 1,
+        "point_of_interest_id": 1,
+
+        "city": {
+            "id": 1,
+            "city_name": "Yogyakarta",
+            "slug": "yogyakarta"
+        },
+
+        "poi": {
+            "id": 1,
+            "point_of_interest_name": "Candi Borobudur",
+            "slug": "candi-borobudur"
+        },
+
+        "durasi": "8",
+        "satuan_durasi": "jam",
+
+        "is_pickup": true,
+        "pickup_venue": "Hotel atau penginapan area Yogyakarta",
+
+        "tipe": "person",
+        "jumlahPeserta": null,
+        "is_children": true,
+        "is_corporate": false,
+
+        "is_discount": true,
+        "price_now": 500000,
+        "price_discount": 600000,
+
+        "rating": 4.9,
+        "total_rating": 128,
+
+        "image1": "https://picsum.photos/900/600?101",
+        "image2": "https://picsum.photos/900/600?102",
+        "image3": "https://picsum.photos/900/600?103",
+        "image4": "https://picsum.photos/900/600?104",
+        "image5": "https://picsum.photos/900/600?105",
+
+        "includes": [
+            {
+                "id": 1,
+                "include_desc": "Transportasi selama perjalanan"
+            },
+            {
+                "id": 2,
+                "include_desc": "Driver berpengalaman"
+            },
+            {
+                "id": 3,
+                "include_desc": "Air mineral"
+            }
+        ],
+
+        "important_information": [
+            {
+                "id": 1,
+                "important_desc": "Peserta disarankan sudah siap 15 menit sebelum waktu keberangkatan."
+            },
+            {
+                "id": 2,
+                "important_desc": "Jadwal perjalanan dapat berubah menyesuaikan kondisi lalu lintas dan cuaca."
+            }
+        ],
+
+        "status": true
+    }
+]

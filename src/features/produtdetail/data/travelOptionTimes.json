@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "travel_option_id": 1,
+        "time": "04:00",
+        "is_active": true,
+        "status": true
+    },
+    {
+        "id": 2,
+        "travel_option_id": 1,
+        "time": "05:00",
+        "is_active": true,
+        "status": true
+    },
+    {
+        "id": 3,
+        "travel_option_id": 1,
+        "time": "07:00",
+        "is_active": true,
+        "status": true
+    },
+
+    {
+        "id": 4,
+        "travel_option_id": 2,
+        "time": "04:00",
+        "is_active": true,
+        "status": true
+    },
+    {
+        "id": 5,
+        "travel_option_id": 2,
+        "time": "05:30",
+        "is_active": true,
+        "status": true
+    },
+    {
+        "id": 6,
+        "travel_option_id": 2,
+        "time": "07:00",
+        "is_active": true,
+        "status": true
+    }
+]

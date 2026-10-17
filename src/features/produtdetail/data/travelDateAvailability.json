@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "travel_option_id": 1,
+        "date": "2026-10-01",
+        "status": true
+    },
+    {
+        "id": 2,
+        "travel_option_id": 1,
+        "date": "2026-10-02",
+        "status": true
+    },
+    {
+        "id": 3,
+        "travel_option_id": 1,
+        "date": "2026-10-03",
+        "quota": 20,
+        "remaining_quota": 0,
+        "status": true
+    },
+
+    {
+        "id": 4,
+        "travel_option_id": 2,
+        "date": "2026-10-01",
+        "quota": 10,
+        "remaining_quota": 8,
+        "status": true
+    },
+    {
+        "id": 5,
+        "travel_option_id": 2,
+        "date": "2026-10-02",
+        "quota": 10,
+        "remaining_quota": 3,
+        "status": true
+    },
+    {
+        "id": 6,
+        "travel_option_id": 2,
+        "date": "2026-10-03",
+        "quota": 10,
+        "remaining_quota": 0,
+        "status": false
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "travel_id": 1,
+        "option_name": "Borobudur Sunrise Reguler",
+        "description": "Paket perjalanan Borobudur Sunrise dengan transportasi reguler dan driver.",
+        "status": true
+    },
+    {
+        "id": 2,
+        "travel_id": 1,
+        "option_name": "Borobudur Sunrise + Prambanan",
+        "description": "Paket perjalanan Borobudur Sunrise dilanjutkan dengan kunjungan ke Candi Prambanan.",
+        "status": true
+    }
+]

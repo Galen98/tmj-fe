@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "travel_option_id": 1,
+        "type": "person",
+        "label": "Dewasa",
+        "min": 1,
+        "max": 10,
+        "price": 500000,
+        "status": true
+    },
+    {
+        "id": 2,
+        "travel_option_id": 1,
+        "type": "person",
+        "label": "Dewasa",
+        "min": 11,
+        "max": 20,
+        "price": 300000,
+        "status": true
+    },
+    {
+        "id": 3,
+        "travel_option_id": 1,
+        "type": "child",
+        "label": "Anak",
+        "min": 1,
+        "max": 10,
+        "price": 350000,
+        "status": true
+    },
+    {
+        "id": 4,
+        "travel_option_id": 1,
+        "type": "child",
+        "label": "Anak",
+        "min": 11,
+        "max": 20,
+        "price": 250000,
+        "status": true
+    },
+
+    {
+        "id": 5,
+        "travel_option_id": 2,
+        "type": "person",
+        "label": "Dewasa",
+        "min": 1,
+        "max": 10,
+        "price": 727812,
+        "status": true
+    },
+    {
+        "id": 6,
+        "travel_option_id": 2,
+        "type": "person",
+        "label": "Dewasa",
+        "min": 11,
+        "max": 20,
+        "price": 600000,
+        "status": true
+    },
+    {
+        "id": 7,
+        "travel_option_id": 2,
+        "type": "child",
+        "label": "Anak",
+        "min": 1,
+        "max": 10,
+        "price": 500000,
+        "status": true
+    },
+    {
+        "id": 8,
+        "travel_option_id": 2,
+        "type": "child",
+        "label": "Anak",
+        "min": 11,
+        "max": 20,
+        "price": 400000,
+        "status": true
+    }
+]

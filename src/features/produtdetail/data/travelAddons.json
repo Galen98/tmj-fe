@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "travel_id": 1,
+        "travel_option_id": null,
+        "addon_name": "Fotografer",
+        "description": "Dokumentasi perjalanan oleh fotografer.",
+        "price": 300000,
+        "min": 0,
+        "max": 2,
+        "status": true
+    },
+    {
+        "id": 2,
+        "travel_id": 1,
+        "travel_option_id": null,
+        "addon_name": "Guide",
+        "description": "Pemandu wisata selama perjalanan.",
+        "price": 200000,
+        "min": 0,
+        "max": 1,
+        "status": true
+    },
+    {
+        "id": 3,
+        "travel_id": 1,
+        "travel_option_id": 1,
+        "addon_name": "Sarapan",
+        "description": "Paket sarapan setelah menikmati sunrise.",
+        "price": 75000,
+        "min": 0,
+        "max": 20,
+        "status": true
+    },
+    {
+        "id": 4,
+        "travel_id": 1,
+        "travel_option_id": 2,
+        "addon_name": "Makan Siang",
+        "description": "Makan siang selama perjalanan Borobudur dan Prambanan.",
+        "price": 100000,
+        "min": 0,
+        "max": 20,
+        "status": true
+    }
+]
