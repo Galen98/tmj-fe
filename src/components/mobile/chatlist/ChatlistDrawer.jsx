@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
-export default function ChatListDrawer({ open, onClose, onOpenConversation }) {
+export default function ChatlistDrawer({ open, onClose, onOpenConversation }) {
     const chats = [
     {
         id: 1,

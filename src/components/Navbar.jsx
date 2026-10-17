@@ -60,7 +60,7 @@ import NotificationDrawer
     from "./mobile/notification/NotificationDrawer";
 
 import ChatListDrawer
-    from "./mobile/chatlist/ChatListDrawer";
+    from "./mobile/chatlist/ChatlistDrawer";
 
 import ChatRoomConversationDrawer
     from "./mobile/chatlist/ChatRoomConversationDrawer";

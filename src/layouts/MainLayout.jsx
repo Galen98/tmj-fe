@@ -6,7 +6,7 @@ import AnalyticsTracker from "../components/AnalyticsTracker";
 // import PhoneNavigation from "../components/PhoneNavigation";
 import { useState } from "react";
 import NotificationDrawer from "../components/mobile/notification/NotificationDrawer";
-import ChatListDrawer from "../components/mobile/chatlist/ChatListDrawer";
+import ChatListDrawer from "../components/mobile/chatlist/ChatlistDrawer";
 import ChatRoomConversationDrawer from "../components/mobile/chatlist/ChatRoomConversationDrawer";
 
 export default function MainLayout() {

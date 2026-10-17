@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Editor } from "@tinymce/tinymce-react";
 
-import Failed from "../../../components/Alert/Failed";
+import Failed from "../../../components/alert/Failed";
 import HorizontalCardSkleton from "../../../components/utils/HorizontalCardSkleton";
 import LoadingAfterStore from "../../../components/utils/LoadingAfterStore";
 import SEO from "../../../components/SEO";
