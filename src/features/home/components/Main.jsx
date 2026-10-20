@@ -111,6 +111,7 @@ const Main = () => {
                 <br />
 
                 <div className="container product-container mt-5 mb-5">
+                    
                     <CategorySection/>
 
                     <SortingSection/>
@@ -119,99 +120,91 @@ const Main = () => {
                     {/* RECOMMENDATION */}
                     {/* ================================= */}
 
-                    <div className="section-header">
+                    <div className="recommendation-section bg-white p-4 rounded mb-5">
 
-                        <h3 className="section-title">
-                            Rekomendasi
-                        </h3>
+                        {/* HEADER */}
 
-                        <div className="section-underline"></div>
+                        <div className="section-header mb-5">
 
-                    </div>
+                            <h3 className="section-title">
+                                Rekomendasi
+                            </h3>
 
+                            <div className="section-underline"></div>
 
-                    <div className="row g-3 mt-2">
+                        </div>
 
-                        {isLoadingProducts ? (
+                        {/* PRODUCTS */}
 
-                            Array.from({
-                                length: 10,
-                            }).map((_, index) => (
+                        <div className="row g-3 recommendation-products">
 
-                                <div
-                                    className="col-6 col-md-4 col-lg-2-4"
-                                    key={index}
-                                >
-                                    <ProductCardSkeleton />
-                                </div>
+                            {isLoadingProducts ? (
 
-                            ))
+                                Array.from({
+                                    length: 10,
+                                }).map((_, index) => (
 
-                        ) : (
+                                    <div
+                                        className="col-6 col-md-4 col-lg-2-4"
+                                        key={index}
+                                    >
+                                        <ProductCardSkeleton />
+                                    </div>
 
-                            products.map((item) => {
+                                ))
 
-                                const product = {
-                                    ...item,
+                            ) : (
 
-                                    name:
-                                        item.travel_name,
+                                products.map((item) => {
 
-                                    location:
-                                        item.city?.name ?? "",
+                                    const product = {
+                                        ...item,
 
-                                    category:
-                                        item.poi?.name ?? "",
+                                        name: item.travel_name,
 
-                                    duration:
-                                        `${item.durasi} ${item.satuan_durasi}`,
+                                        location: item.city?.name ?? "",
 
-                                    image:
-                                        item.image1,
+                                        category: item.poi?.name ?? "",
 
-                                    price:
-                                        item.price_now,
+                                        duration: `${item.durasi} ${item.satuan_durasi}`,
 
-                                    oldPrice:
-                                        item.price_discount,
+                                        image: item.image1,
 
-                                    rating: Number(item.rating ?? 0),
+                                        price: item.price_now,
 
-                                    totalRating: Number(item.total_rating ?? 0),
-                                };
+                                        oldPrice: item.price_discount,
 
+                                        rating: Number(item.rating ?? 0),
 
-                                return (
+                                        totalRating: Number(item.total_rating ?? 0),
+                                    };
 
-                                    <ProductCard
-                                        key={item.id}
-                                        product={product}
-                                    />
+                                    return (
 
-                                );
+                                        <ProductCard
+                                            key={item.id}
+                                            product={product}
+                                        />
 
-                            })
+                                    );
 
-                        )}
-                    </div>
+                                })
 
+                            )}
 
-                    {/* ================================= */}
-                    {/* LIHAT LAINNYA */}
-                    {/* ================================= */}
+                        </div>
 
-                    {!isLoadingProducts &&
-                        products.length > 0 && (
+                        {/* LIHAT LAINNYA */}
 
-                            <div className="text-center mt-5 mb-5">
+                        {!isLoadingProducts && products.length > 0 && (
+
+                            <div className="text-center mt-5">
 
                                 <button
                                     type="button"
                                     className="btn-load-more"
                                     onClick={() =>
-                                        navigate(
-                                            "/recommendations"
-                                        )
+                                        navigate("/recommendations")
                                     }
                                 >
                                     Lihat Lainnya
@@ -220,6 +213,8 @@ const Main = () => {
                             </div>
 
                         )}
+
+                    </div>
 
 
                     {/* ================================= */}
